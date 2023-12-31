@@ -8,7 +8,7 @@ Created on Sun Dec 31 15:16:38 2023
 import streamlit as st
 from PIL import Image
 
-def visualization:
+def visualization():
     
     # Visualization Page
     st.title("Visualizations")
