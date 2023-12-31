@@ -7,7 +7,7 @@ Created on Sun Dec 31 15:06:19 2023
 
 import streamlit as st
 import pandas as pd
-def dataset:
+def dataset():
     # Dataset Information
     st.header("Dataset Information:")
     st.write('''The predictive model is trained on a dataset obtained from Kaggle. It includes
