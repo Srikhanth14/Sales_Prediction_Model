@@ -19,7 +19,7 @@ if selected == "Home":
     home.home()
 if selected == "Dataset":
     Dataset.dataset()
-if selected == "Input_form":
+if selected == "Input_Form":
     Input_Form.form()
 if selected == "Visualization":
     Visualization.visualization()
