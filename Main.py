@@ -6,7 +6,7 @@ Created on Sun Dec 31 14:51:40 2023
 """
 
 from streamlit_option_menu import option_menu
-import home,Visualization,Dataset,Input_Form
+import home, Visualization, Dataset, Input_Form
 
 selected = option_menu(
                         menu_title="Main Menu",
