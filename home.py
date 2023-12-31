@@ -8,7 +8,7 @@ Created on Sun Dec 31 15:00:03 2023
 import streamlit as st
 from PIL import Image
 
-def home:
+def home():
     st.image('Sales.jpeg',use_column_width=True)
     
     # Introduction
