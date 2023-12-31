@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 import home, Visualization, Dataset, Input_Form
 
 selected = option_menu(
-                        menu_title="Main Menu",
+                        menu_title="Sales",
                         options=["Home", "Dataset","Visualization", "Input_Form"],
                         icons=["home", "bar-chart", "edit", "check"],
                         default_index=0,
