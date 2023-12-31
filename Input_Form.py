@@ -22,7 +22,7 @@ def form():
         # Make predictions using the trained sales prediction model
         input_data_reshaped_df=pd.DataFrame(input_data_reshaped,columns=columns)
         
-        prediction = loaded_model.predict(input_data_reshaped_df)
+        prediction=loaded_model.predict(input_data_reshaped_df)
         # Display prediction result
         st.subheader("Predicted Sales:")
         st.write(prediction[0])
@@ -36,5 +36,6 @@ def form():
         
         if st.button('Predict Sales'):
             sales_prediction([TV,Radio,Newspaper])
+    
     # Run the main function
     main()
