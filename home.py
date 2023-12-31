@@ -9,7 +9,7 @@ import streamlit as st
 from PIL import Image
 
 def home():
-    st.image('Sales.jpeg',use_column_width=True)
+    st.image(Image.open('Sales.jpeg'),use_column_width=True)
     
     # Introduction
     st.header("Welcome to the Sales Prediction App!")
