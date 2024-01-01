@@ -11,9 +11,9 @@ import home, Visualization, Dataset, Input_Form
 selected = option_menu(
                         menu_title="Sales",
                         options=["Home", "Dataset","Visualization", "Input_Form"],
-                        icons=["home", "database-down", "pie-chart", "ui-checks-grid"],
+                        icons=["house-door", "database-down", "pie-chart", "ui-checks-grid"],
                         default_index=0,
-                        menu_icon="receipt"
+                        menu_icon="receipt",
                         orientation="horizontal"
                        )
 if selected == "Home":
