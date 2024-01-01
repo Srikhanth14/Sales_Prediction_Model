@@ -13,6 +13,7 @@ selected = option_menu(
                         options=["Home", "Dataset","Visualization", "Input_Form"],
                         icons=["home", "database-down", "pie-chart", "ui-checks-grid"],
                         default_index=0,
+                        menu-icon="receipt"
                         orientation="horizontal"
                        )
 if selected == "Home":
