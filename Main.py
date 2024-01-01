@@ -4,7 +4,7 @@ Created on Sun Dec 31 14:51:40 2023
 
 @author: ELCOT
 """
-
+import streamlit as st
 from streamlit_option_menu import option_menu
 import home, Visualization, Dataset, Input_Form
 
