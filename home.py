@@ -19,17 +19,11 @@ def home():
     
     # Key Features
     st.subheader("Key Features:")
-    st.write('''1. **Predictive Analytics:**
-    Dive into the capabilities of predictive analytics. My model analyzes data from TV, Radio,
-    and Newspaper advertising to provide accurate sales forecasts.''')
+    st.write('''1. **Predictive Analytics:** Dive into the capabilities of predictive analytics. My model analyzes data from TV, Radio,and Newspaper advertising to provide accurate sales forecasts.''')
     
-    st.write('''2. **User-Friendly Interface:**
-    Experience a seamless journey through the app's user-friendly interface. No coding skills
-    required – simply input your data and witness the predictive power.''')
+    st.write('''2. **User-Friendly Interface:**Experience a seamless journey through the app's user-friendly interface. No coding skills required – simply input your data and witness the predictive power.''')
     
-    st.write('''3. **Data Visualization:**
-    Visualize the impact of each advertising channel on sales with interactive charts and
-    graphs. Gain valuable insights for your business strategies.''')
+    st.write('''3. **Data Visualization:** Visualize the impact of each advertising channel on sales with interactive charts and graphs. Gain valuable insights for your business strategies.''')
     
     # About Me
     st.subheader("About Me:")
