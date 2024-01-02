@@ -10,6 +10,13 @@ import home, Visualization, Dataset, Input_Form
 
 st.set_page_config(page_title="Sales Prediction",page_icon="coin",layout="wide")
 
+hide_st_style ="""<style>
+       #MainMenu{visibility:hidden;}
+       footer{visibility:hidden;}
+       header{visibility:hidden;}
+       </style> """
+st.markdown(hide_st_style,unsafe_allow_html=True)
+
 selected = option_menu(
                         menu_title="Sales",
                         options=["Home", "Dataset","Visualization", "Input_Form"],
