@@ -10,16 +10,11 @@ import home, Visualization, Dataset, Input_Form
 
 st.set_page_config(page_title="Sales Prediction",page_icon="coin",layout="wide")
 
-
-
 selected = option_menu(
                         menu_title="Sales",
-                        options=["Home", "Dataset","Visualization", "Input_Form"],
-                        icons=["house-door", "database-down", "pie-chart", "ui-checks-grid"],
-                        default_index=0,
-                        menu_icon="receipt",
-                        orientation="horizontal"
-                       )
+options=["Home","Dataset","Visualization", "Input_Form"],
+icons=["house-door", "database-down", "pie-chart", "ui-checks-grid"],
+default_index=0,                        menu_icon="receipt",                        orientation="horizontal"                       )
 if selected == "Home":
     home.home()
 if selected == "Dataset":
